@@ -10,7 +10,7 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
-  
+  int thermPin = 0;
   int V;
   float R = 9870.0;
   float logRt, Rt, T,Temp;

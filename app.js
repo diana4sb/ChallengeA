@@ -4,7 +4,7 @@ var http = require('http'),
 var express = require('express');
 var SerialPort = require("serialport").SerialPort;
 
-var app = module.exports = express.createServer();
+var app = module.exports = express();
 
 var server = http.createServer(function (req, res) {
   fs.readFile('./index.html', function(error, data) {
